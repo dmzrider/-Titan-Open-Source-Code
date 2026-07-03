@@ -9,7 +9,10 @@
       "combined": "YOUR_COMBINED_LOG_CHANNEL_ID",
       "commands": "YOUR_MESSAGE_COMMAND_LOG_CHANNEL_ID",
       "slash": "YOUR_SLASH_COMMAND_LOG_CHANNEL_ID"
-    }
+    },
+    "welcome": "YOUR_WELCOME_CHANNEL_ID_HERE",
+    "goodbye": "YOUR_GOODBYE_CHANNEL_ID_HERE",
+    "rules": "YOUR_RULES_CHANNEL_ID_HERE"
   },
   "logging": {
     "combinedType": true

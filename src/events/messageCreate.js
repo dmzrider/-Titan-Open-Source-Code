@@ -7,6 +7,20 @@ module.exports = {
     async execute(message, client) {
         if (message.author.bot) return;
 
+        // Auto-Moderation Filter Check (Guild Only)
+        if (message.guild) {
+            const FilterManager = require('../utils/filterManager');
+            const check = FilterManager.checkMessage(message.content);
+            if (check.isViolated) {
+                const isStaff = Permissions.canRunCommand(message.member, 'say'); // Checks if member is owner/staff
+                if (!isStaff) {
+                    await message.delete().catch(() => {});
+                    return message.channel.send(`⚠️ **Auto-Mod:** ${message.author}, your message was deleted because it contained a **${check.reason.toLowerCase()}**.`)
+                        .then(msg => setTimeout(() => msg.delete().catch(() => {}), 5000));
+                }
+            }
+        }
+
         const args = message.content.trim().split(/ +/);
         const commandName = args.shift().toLowerCase(); 
 

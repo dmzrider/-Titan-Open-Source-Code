@@ -9,7 +9,10 @@
       "combined": "id",
       "commands": "id",
       "slash": "id"
-    }
+    },
+    "welcome": "id",
+    "goodbye": "id",
+    "rules": "id"
   },
   "logging": {
     "combinedType": true
