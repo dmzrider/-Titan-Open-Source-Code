@@ -1,0 +1,17 @@
+{
+  "owners": ["YOUR_DEFAULT_OWNER_ID_HERE"],
+  "roles": {
+    "admin": "YOUR_DEFAULT_ADMIN_ROLE_ID_HERE",
+    "mod": "YOUR_DEFAULT_MOD_ROLE_ID_HERE"
+  },
+  "channels": {
+    "logs": {
+      "combined": "YOUR_COMBINED_LOG_CHANNEL_ID",
+      "commands": "YOUR_MESSAGE_COMMAND_LOG_CHANNEL_ID",
+      "slash": "YOUR_SLASH_COMMAND_LOG_CHANNEL_ID"
+    }
+  },
+  "logging": {
+    "combinedType": true
+  }
+}

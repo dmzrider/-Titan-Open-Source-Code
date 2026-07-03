@@ -1,0 +1,17 @@
+{
+  "owners": ["id"],
+  "roles": {
+    "admin": "id",
+    "mod": "id"
+  },
+  "channels": {
+    "logs": {
+      "combined": "id",
+      "commands": "id",
+      "slash": "id"
+    }
+  },
+  "logging": {
+    "combinedType": true
+  }
+}
