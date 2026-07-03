@@ -9,6 +9,6 @@ module.exports = {
     },
   
     footer: {
-        text: 'System Utility'
+        text: 'Titan Utility'
     }
 };

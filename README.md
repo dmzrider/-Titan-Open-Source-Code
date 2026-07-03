@@ -1,6 +1,6 @@
-# 🛡️ Core Utility Discord Bot
+# 🛡️ Titan Open Source Discord Bot
 
-Welcome to the **Core Utility Discord Bot**! This is a modern, highly performant, and flexible open-source template tailored for startups, communities, and developers looking to deploy a personal server utility bot. It supports both prefix-less **Keyword Commands** and native **Slash Commands** with clean channel-logging features and environment-configured permissions.
+Welcome to **Titan**! Titan is a modern, highly performant, and flexible open-source template tailored for startups, communities, and developers looking to deploy a personal server utility bot. It supports both prefix-less **Keyword Commands** and native **Slash Commands** with clean channel-logging features and environment-configured permissions.
 
 ---
 

@@ -6,6 +6,6 @@ module.exports = {
     once: true,
     execute(client) {
         Logger.log(`Ready! Logged in as ${client.user.tag}`);
-        client.user.setActivity('System Utility', { type: 4 }); 
+        client.user.setActivity('Titan Utility', { type: 4 }); 
     },
 };
