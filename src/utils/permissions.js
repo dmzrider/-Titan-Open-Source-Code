@@ -14,7 +14,7 @@ class Permissions {
         const modRoleId = process.env.MOD_ROLE_ID || (config.roles && config.roles.mod);
 
         const adminCommands = ['dmall', 'ann', 'ann2'];
-        const modCommands = ['dm', 'say', 'saye'];
+        const modCommands = ['dm', 'say', 'saye', 'help'];
 
         if (adminCommands.includes(commandName)) {
             return member.permissions.has('Administrator') || 
